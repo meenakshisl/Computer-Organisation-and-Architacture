@@ -141,15 +141,15 @@ A machine instruction that does nothing is called (in official computer science 
 
 1. Write a program in MIPS, that take an integer from the user, perform SLL and Print the output. 
 
-Translate the following C statement into MIPS assembly code. Assume that x, y, z, q are stored in registers $s1-$s4. You may use the other registers to hold intermediate results. 
+2. Translate the following C statement into MIPS assembly code. Assume that x, y, z, q are stored in registers $s1-$s4. You may use the other registers to hold intermediate results. 
 
 > C stt: x = x + y + z - q; 
 
  
 
-2. How can we implement logical not? Write down the statement and show the result. 
+3. How can we implement logical not? Write down the statement and show the result. 
 
-Given that: $t2 = 0xabcd1234 and $t3 = 16. Calculate the following. 
+4. Given that: $t2 = 0xabcd1234 and $t3 = 16. Calculate the following. 
 ```
 sll $t1, $t2, 8 
 
@@ -160,7 +160,7 @@ sra $t1, $t2, 4
 srlv $t1, $t2, $t3 
 ```
 
-3. Write a program that reads a sequence of decimal numbers on the standard input (one per line) and prints the 8-bit binary representation of each number (one per line), until a 0 is read on the input. You can assume that the numbers entered will be positive and within the range of 8-bit binary numbers (0 to 255).  
+5. Write a program that reads a sequence of decimal numbers on the standard input (one per line) and prints the 8-bit binary representation of each number (one per line), until a 0 is read on the input. You can assume that the numbers entered will be positive and within the range of 8-bit binary numbers (0 to 255).  
 
 Hint : - you simply need to examine the appropriate bits using only logical and shift operations. Shift and AND operations are all you need to generate the binary representation of an integer. 
 
